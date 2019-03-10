@@ -8,8 +8,11 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+// tslint:disable-next-line: max-line-length
     new Recipe('Chicken', 'Test chicken recipe', 'https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 '),
+// tslint:disable-next-line: max-line-length
     new Recipe('Chicken', 'Test chicken recipe', 'https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 '),
+// tslint:disable-next-line: max-line-length
     new Recipe('Chicken', 'Test chicken recipe', 'https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 ')
   ];
 
